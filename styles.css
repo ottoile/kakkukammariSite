@@ -1,0 +1,216 @@
+
+h1 {
+    font-family: 'Marck Script', cursive;
+    font-size: 2.75rem;
+}
+
+h2 {
+    font-family: 'Marck Script', cursive;
+    font-size: 1.75rem;
+    padding-top: 20px;
+}
+
+p {
+    font-family: 'Cabin', sans-serif;
+    font-size: 1rem;
+    padding-bottom: 20px;
+}
+
+img {
+    display:block;
+    max-width:90%;
+    max-height:auto;
+    margin-left:auto ;
+    margin-right: auto;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+
+.navOsio {
+    background-color: #EBE8E0;
+    padding-top: 20px;
+}
+
+nav {
+    display: flex;
+    
+    }
+
+nav a {
+    color: black;
+    text-decoration: none;
+    font-size: 1.25rem;
+    padding: 15px;
+}
+
+.logo {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    
+}
+
+.logo p {
+    text-align: center;
+}
+    
+
+.menuItem {
+    padding: 5px;
+    list-style-type:none;
+}
+
+.hero {
+    background-color:#EBE8E0;
+    text-align: center;
+}
+
+/* .heroColLeft {
+   
+} */
+
+.table {
+   
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    width: auto;
+    height: auto;
+}
+th {
+    text-align: center;
+}
+
+header {
+    width:100%;
+}
+
+header img {
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+/* .heroColRight {
+   
+
+} */
+.heroimg {
+margin-left: auto;
+margin-right: auto;
+display: block;
+}
+
+.carousel {
+    max-width: 50%;
+    max-height: 100%;
+    background-color: fuchsia;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.info {
+    text-align: center;
+    margin: auto;
+    padding-bottom: 25px;
+}
+
+.doubleCol {
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.lahjakortit {
+    text-align: center;
+}
+
+.btnDiv {
+    padding-top: 30px;
+    padding-bottom: 30px;
+
+}
+
+.btn {
+    margin-left: auto;
+    margin-right: auto;
+    background-color: darkgoldenrod;
+    border-color: black;
+}
+
+/* Upotusten muotoilu */
+.embbed {
+    border-style: solid;
+    border-width: 5px;
+    border-radius: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 500px;
+    width: 95%;
+    
+    
+}
+
+.some {
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+footer {
+    background-color: #EBE8E0;
+}
+
+.footerLogo {
+width: 70%;
+display: block;
+margin-left: auto;
+margin-right: auto;
+}
+
+.yhteystiedot {
+    text-align: center;
+}
+
+
+@media (min-width: 676px) {
+    
+    .menu {
+        display: flex;
+    }
+
+}
+
+@media (max-width: 676px) {
+    .container{
+        max-width:100% !important;
+        padding-left:0px;
+        padding-right:0px;
+
+    }
+    .menu {
+        text-align: center;
+        width: 100%;
+    
+    }
+   .menuItem {
+       
+       text-align: center;
+   }
+
+   .logo {
+       display:block;
+       margin: auto;
+       margin-right: auto;
+       margin-left: auto;
+       padding-right: 0px;
+       padding-left: 15px;
+       width: 80%;
+   }
+}
